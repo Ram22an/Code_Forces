@@ -33,3 +33,6 @@ int main(){
 //	}
 //	cout << steps-1 << endl;
 }
+//here i find it difficult for first time as i was using the second loop to itrrate the steps like if i is less than 2
+//i will increase and i was increasing the step in it i saw a solution online and he told me to find the distance between 
+//i and 2 and j and 2 this will give you the steps 
