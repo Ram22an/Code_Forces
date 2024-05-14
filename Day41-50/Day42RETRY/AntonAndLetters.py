@@ -6,4 +6,5 @@ if len(StringList)>2:
     Dir1=set(StringList2)
     print(len(Dir1))
 else:
+    # trying again
     print(0)
