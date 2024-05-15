@@ -8,3 +8,5 @@ if len(StringList)>2:
 else:
     # trying again
     print(0)
+    # this is for streak
+    
