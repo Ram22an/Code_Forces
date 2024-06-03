@@ -26,10 +26,24 @@ Num2=int(input())
 # it will check in while loop that is num1 and num2 are not equal if not it will proceed
 # it will find the smallest number from them 
 # it will subtract small number from larger number 
+# this is will make both number equal to the hcf of both number 
 
-while Num1!=Num2:
-    if Num1>Num2:
-        Num1-=Num2
-    else:
-        Num2-=Num1
-print(Num1)
+# while Num1!=Num2:
+#     if Num1>Num2:
+#         Num1-=Num2
+#     else:
+#         Num2-=Num1
+# print(Num1)
+
+
+
+
+
+# here is the more optimized Euclidean algo with recursion
+# num1=12 and num2=15 
+
+def gcd(a,b):
+    if b==0:
+        return a
+    return gcd(b,a%b)
+print(gcd(Num1,Num2))
