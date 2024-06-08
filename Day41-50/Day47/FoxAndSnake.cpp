@@ -23,9 +23,9 @@ int main() {
             }
             else{
                 if (i % 4 == 1) {
-                arry[i][c - 1] = '#'; // Fill the last column
+                arry[i][c - 1] = '#';
             } else if (i % 4 == 3) {
-                arry[i][0] = '#'; // Fill the first column
+                arry[i][0] = '#'; 
             }
             }
         }  
