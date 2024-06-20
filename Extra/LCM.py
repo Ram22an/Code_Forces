@@ -15,3 +15,8 @@ else:
             break
     if counter==0:
         print(val)
+# this is a naive method
+# but we can find it in more efficient way that is 
+# a*b=lcm(a,b)*gcd(a,b)
+#  lcm(a,b)=(a*b)/gcd(a,b)
+# so first we can find gcd or hcf
