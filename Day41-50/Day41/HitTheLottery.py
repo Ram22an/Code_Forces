@@ -21,3 +21,7 @@ Money=Money%1
 # print(total)
 # print(Money)
 print(int(total))
+# Same as above
+# for i in [100,20,10,5,1]:
+#     total=total+int(Money/i)
+#     Money=Money%i
