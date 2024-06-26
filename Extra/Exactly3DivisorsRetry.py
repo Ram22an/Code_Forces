@@ -32,3 +32,4 @@ print(count_numbers_with_exactly_3_divisors(x))
 # The divisors of p^2 are:1, p, and p^2.Hence, exactly 3 divisors.
 # For example, if N=100,then under root 100 =10. We only need to check prime numbers up to 10. 
 # The squares of these primes (2, 3, 5, 7) are 4, 9, 25, and 49 respectively, all of which are ≤100
+# https://chatgpt.com/share/e87d55d0-59b2-4716-9dfd-2fd1d35284c6
