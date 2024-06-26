@@ -21,7 +21,7 @@ for i in range(2,Num+1):
     if PrimeOrNot(i):
         x=i
         # print(i,count_divisions(Num,i))
-        if count_divisions(Num,i):
+        if Num%i==0 or count_divisions(Num,i):
             print(i,count_divisions(Num,i))
         # while Num%x==0:
         #     print(i,end=" ")
