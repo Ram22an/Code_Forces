@@ -5,6 +5,7 @@ def Recursive(x):
         return x*Recursive(x-1)
 x=int(input())
 a=Recursive(x)
+print(a)
 # print(a)
 # anotherCounter=0
 # while a!=0:
