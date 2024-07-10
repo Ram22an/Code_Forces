@@ -7,3 +7,4 @@ Total=0
 for i in range(len(Strips)):
     Total+=Carolies[Strips[i]]
 print(Total)
+# it is a easy question
