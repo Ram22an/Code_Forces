@@ -8,7 +8,7 @@
 #         arr.append(i)
 #     i+=1
 # print(arr)
-# this what i have sbumited but i don;t like this method 
+# this what i have sbumited but i don't liked this method 
 # x1 = 1666
 # i = 0
 # arr = []
