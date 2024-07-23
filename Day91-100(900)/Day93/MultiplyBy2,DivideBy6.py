@@ -33,7 +33,7 @@ for _ in range(x):
     # it is used to determine if num has any prime factors other than 2 and 3
     remaining = num // (2 ** For2) // (3 ** For3)
     # remaining = num // ((2 ** For2) * (3 ** For3))
-    print(For2,For3,remaining)
+    # print(For2,For3,remaining)
     if remaining != 1:
         print(-1)
     elif num == 1:
@@ -43,3 +43,4 @@ for _ in range(x):
     else:
         print(2 * For3 - For2)
 # it is confirmed that is is correct or not
+# it is accepted now
